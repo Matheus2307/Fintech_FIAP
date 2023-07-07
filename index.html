@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2><img src= "./images/black yellow minimalist Idea Logo.png" alt="Logo"> </h2>
+    <form>
+      <div class="form-group">
+        <label for="username">Usuário:</label>
+        <input type="text" id="username" name="username" class="form-control" placeholder="Digite seu usuário">
+      </div>
+      <div class="form-group">
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" class="form-control" placeholder="Digite sua senha">
+      </div>
+      <div class="links">
+        <a href="#" class="signup-link">Cadastre-se</a>
+        <a href="#" class="forgot-password">Esqueci a senha</a>   
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">Entrar</button>
+      </div>
+      <div class="social-buttons">
+        <button class="google-button" onclick="window.open('https://accounts.google.com/v3/signin/identifier?dsh=S-1308001782%3A1687995665579566&hl=pt-BR&ifkv=AeDOFXhHjYxGTrVJhBBYkV9LcKlEFgItdHmDhqActbrtAzYtucNIcrNp-r_1Xc63Zvme0YpNVSTtDw&flowName=GlifWebSignIn&flowEntry=ServiceLogin', '_blank')"></button>
+        <button class="microsoft-button" onclick="window.open('https://login.microsoftonline.com/common/oauth2/v2.0/authorize?scope=service%3A%3Aaccount.microsoft.com%3A%3AMBI_SSL+openid+profile+offline_access&response_type=code&client_id=81feaced-5ddd-41e7-8bef-3e20a2689bb7&redirect_uri=https%3A%2F%2Faccount.microsoft.com%2Fauth%2Fcomplete-signin-oauth&client-request-id=8befe857-c079-4af8-a703-1005de4043b2&x-client-SKU=MSAL.Desktop&x-client-Ver=4.45.0.0&x-client-CPU=x64&x-client-OS=Windows+Server+2019+Datacenter&prompt=login&client_info=1&state=H4sIAAAAAAAEAAXBObaCMAAAwLvYWnxkjYUFmwmbEYiGRwdhhyAKinL6P7O7JZBuiWL5SoRwh5FWYPoeeN20mzy2tB0DbW-KgabXayflqpmH1HjCDNY_7KnmbI7chjHtB0CDC0dZ4VwJgZEbATqjsDMI0JpcuDYNnaSGGWW_SNaWO7K8h3WVq0drffXMmx6bp7fxX_dW13ecGqvnMcu3CjpM7cv0yT0qB6YICHo4TAEolvQg8FU43xDeqPwVs8PKz61esSR92PXyO_cf1wkWfs8mZtwEKGFUjp_wyVzTK0Sbk_CoASLq1GcRavp8VC9qLpeRtWRkILTZvsF3wT-itGlgVaAn8wTBQ6uBEceorZxG4Jprs5kmtvl3x52Li_2hs57ZdOSCMLn66bT7B9Hz019aAQAA&msaoauth2=true&lc=1046&sso_reload=true', '_blank')"></button>
+        <button class="apple-button" onclick="window.open('https://www.icloud.com/', '_blank')"></button>
+      </div>
+    </form>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

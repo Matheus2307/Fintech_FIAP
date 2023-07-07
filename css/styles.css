@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #15202b;
+    color: #ffffff;
+    overflow: hidden; 
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #15202b;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  h2 img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .custom-line {
+    width: 100%;
+    max-width: 250px;
+    margin: 10px auto;
+    border: 1px solid #ffffff;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 0 0 2px #ccc;
+    color: #000000;
+  }
+  
+  .form-group button {
+    width: 100%;
+    max-width: 200px;
+    padding: 10px;
+    background-color: #fddd12;
+    border: 1px solid transparent;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 40px;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  .form-group button:hover {
+    background-color: #3ce608;
+  }
+  
+  .social-buttons {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .social-buttons button {
+    width: 45px;
+    height: 45px;
+    border: none;
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .google-button {
+    background-image: url('https://imagepng.org/wp-content/uploads/2019/08/google-icon-1.png');
+  }
+  
+  .microsoft-button {
+    background-image: url('https://th.bing.com/th/id/R.3d6a2ad56bc3403c5cfcc3efe09b741b?rik=gnNKMMZSvZ3uMA&riu=http%3a%2f%2fpurepng.com%2fpublic%2fuploads%2flarge%2fpurepng.com-microsoft-logo-iconlogobrand-logoiconslogos-251519939091wmudn.png&ehk=1%2fl4i5MeDLTCpvZhUZlCefvhSzsGR16HIPqagpDxYDg%3d&risl=&pid=ImgRaw&r=0');
+  }
+  
+  .apple-button {
+    background-image: url('https://th.bing.com/th/id/R.56d54ed9f0daf9d4d0715f6b4c58c589?rik=jQmRSQruXIc9hA&riu=http%3a%2f%2ftusimagenesde.com%2fwp-content%2fuploads%2f2016%2f05%2fapple-logo-1.png&ehk=TopngVkkzoETDEIh1%2bkR4oJX0mUkKk2cWVVXxBt%2fHlg%3d&risl=&pid=ImgRaw&r=0');
+  }
+  
+  .google-button:hover {
+    background-color: #c53727;
+  }
+  
+  .microsoft-button:hover {
+    background-color: #1e57e6;
+  }
+  
+  .apple-button:hover {
+    background-color: #a3a7ab;
+  }
+  
+  .signup-link {
+    text-align: right;
+    margin-right: 10%;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .forgot-password {
+    margin-left: auto;
+  }
+  
